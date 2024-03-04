@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+    background-color: rgb(63, 61, 61);
+    position: fixed;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    height: 70px;
+}
+#manu {
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.name {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#Anshu {
+    color: white;
+}
+#Bera {
+    padding-left: 7px;
+    color: rgb(237, 195, 6);
+}
+#manu1 {
+    text-decoration: none;
+    color: white;
+}
+#manu1:hover {
+    color: rgb(237, 195, 6);
+    text-decoration: underline;
+}
+#Home-section {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+    background-color: black;
+    height: 692px;
+}
+.bio {
+    padding-top: 200px;
+}
+#Hello {
+    color: rgb(237, 195, 6);
+}
+#Iam{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(237, 195, 6);
+}
+#engineer{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#Web{
+    margin-top: 20px;
+    font-size: 18px;
+    color:white;
+    font-weight: bold;
+}
+#Resumebutton{
+    margin-top: 20px;
+    background-color:rgb(237, 195, 6) ;
+    border-radius: 18px;
+    height: 30px;
+    width: 70px;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.first-part{
+    display: flex;
+}
+#About-section{
+    height:fit-content;
+    background-color: black;
+}
+.About{
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    overflow:hidden ;
+    padding-top: 150px;
+    justify-content: space-around;
+    color:rgb(172, 169, 169);
+}
+.bio2{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Skills{
+    margin: 10px;
+    color: rgb(237, 195, 6);
+}
+.language{
+  list-style: none;
+}
+.l1{
+    margin-top: 10px;
+}
+.l2{
+    margin-top: 10px; 
+    background-color: rgb(237, 195, 6);
+    height: 10px;
+}
+#la1{ 
+    width: 320px;
+}
+#la2{
+    width: 240px;
+}
+#la3{
+    width: 280px;
+}
+.myprofile{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.myprofile2{
+    color: rgb(172, 171, 171);
+}
+.Profile{
+    padding-top: 10px;
+}
+#linkedin{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
+#linkedinbutton{
+    margin-top: 50px;
+    margin-bottom: 112px;
+    border: none;
+    background-color:rgb(237, 195, 6) ;
+    border-radius: 18px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(237, 195, 6);
+    padding-top: 100px;
+    font-size: 20px;
+}
+#Project-section{
+    background-color: black;
+    height:fit-content;
+    overflow: hidden;   
+}
+#Example{
+    padding-top: 25px;
+    color:white;
+}
+.MyProject{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.imgbio{
+    color: white;
+    text-decoration: none;
+}
+.imgbio:hover{
+    color:rgb(237, 195, 6);
+}
+#Githubbutton{
+    border: none;
+    background-color:rgb(237, 195, 6) ;
+    border-radius: 18px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+.Guthub{
+    margin-top: 15px;
+    margin-bottom: 134px;
+    display: flex;
+    justify-content: center;
+}
+#Contact-section{
+    background-color: black;
+    height:fit-content;
+}
+.mycontact{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+    padding-top: 110px;
+}
+.logo1{
+   margin-top: 20px;
+}
+#logoposition{
+    padding-left: 21px;
+}
+#logoposition1{
+padding-left: 56px;
+}
+#logoposition2{
+    padding-left:46px;
+}
+#logoposition3{
+    padding-left:65px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;  
+}
+#Find{
+   padding-left: 10px;
+   margin-bottom: 100px; 
+   border: none;
+   color: aliceblue;
+   background-color: black;
+   cursor: pointer;
+}
